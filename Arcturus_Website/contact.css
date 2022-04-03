@@ -1,0 +1,39 @@
+:root {
+	--background: #12013b;
+	--text: #c1c4a9;
+  }
+
+.navbar {
+    background:#0617b3;
+}
+.nav-link,
+.navbar-brand {
+    color: #fff;
+    cursor: pointer;
+}
+.nav-link {
+    margin-right: 1em !important;
+}
+.nav-link:hover {
+    color: rgb(202, 161, 221);
+}
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+/* end navbar stuff */
+
+.features .form-control,
+.features input {
+	border-radius: 0;
+}
+.features .btn {
+    background-color: #589b37;
+    border: 1px solid #589b37;
+    color: #fff;
+    margin-top: 20px;
+}
+.features .btn:hover {
+    background-color: #333;
+    border: 1px solid #333;
+}
