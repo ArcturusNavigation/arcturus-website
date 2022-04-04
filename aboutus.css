@@ -1,0 +1,42 @@
+:root {
+	--background: #12013b;
+	--text: #c1c4a9;
+  }
+
+.navbar {
+    background:#0617b3;
+}
+.nav-link,
+.navbar-brand {
+    color: #fff;
+    cursor: pointer;
+}
+.nav-link {
+    margin-right: 1em !important;
+}
+.nav-link:hover {
+    color: rgb(202, 161, 221);
+}
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+
+.includebackground{
+    background-color: #12013b;
+}
+
+.topic{
+    margin-top: 5%;
+    margin-bottom: 2%;
+    color:#c1c4a9;
+    text-align: center;
+}
+
+.paragraph{
+    color: #c1c4a9;
+    font-size: large;
+    text-align: center;
+    align-items: center;
+    
+}
